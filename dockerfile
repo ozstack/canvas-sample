@@ -10,3 +10,15 @@ RUN apt-get update && apt-get upgrade -y && apt-get install curl fonts-nanum fon
     && npm install --global yarn \
     && npm install --global node-gyp \
     && npm install --global canvas
+
+
+# FROM node:20.11-bullseye-slim
+
+# RUN apt-get update && apt-get upgrade -y && apt-get install curl fonts-nanum fontconfig \
+#     build-essential libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev -y \        
+#     && npm install --global node-gyp \
+#     && npm install --global canvas
+
+# ENV TZ=Asia/Seoul
+
+# # docker build . -t ozstack/nodejs:bulleye-20.11 
