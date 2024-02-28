@@ -73,6 +73,11 @@
   ,
 
   "compilerOptions": {
+    "target": "ES5",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
     "outDir": "dist"
   },
   "extends": "@tsconfig/node16/tsconfig.json",
